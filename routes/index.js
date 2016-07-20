@@ -11,8 +11,8 @@ router.get('/dog', function(req, res, next) {
 });
 
 
-router.get('/cat', function(req, res, next) {
-  res.send('cat')
+router.get('/catyo', function(req, res, next) {
+  res.send('catyo')
 });
 
 module.exports = router;
