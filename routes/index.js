@@ -10,4 +10,9 @@ router.get('/dog', function(req, res, next) {
   res.send('dog')
 });
 
+
+router.get('/cat', function(req, res, next) {
+  res.send('cat')
+});
+
 module.exports = router;
